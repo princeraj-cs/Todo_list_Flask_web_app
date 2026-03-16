@@ -95,14 +95,4 @@ app.run(debug=True, port=5001)
 pip install -r requirements.txt
 ```
 
-## Important for Production
-
-⚠️ Before deploying:
-
-- Change `SECRET_KEY` in `website/__init__.py`
-- Set `debug=False` in `main.py`
-- Use environment variables for config
-
----
-
 **Enjoy organizing your tasks!** 🚀
